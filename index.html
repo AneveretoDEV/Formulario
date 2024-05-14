@@ -10,7 +10,94 @@
     <body>
         <form action="">
 
+            <div>
+                <label>
+                    ¿Por cúal nombre quieres que me dirija a tí?
+                    <input type="text" name="nick">
+                </label>
+            </div>
 
+            <div>
+                <label>
+                    Pronombres
+    
+                    <label>
+                        él/ellos
+                        <input type="radio" value="él-ellos" name="pronombres">
+                    </label>
+    
+                    <label>
+                        ella/ellas
+                        <input type="radio" value="ella-ellas" name="pronombres">
+                    </label>
+    
+                    <label>
+                        elle/elles
+                        <input type="radio" value="elle-elles" name="pronombres">
+                    </label>
+                </label>
+            </div>
+            
+            <div>
+                <label>
+                    ¿Eres mayor de 18 años?
+                    <input type="checkbox" name="adult" value="yes">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Fecha
+                    <input type="date" name="date" value="">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Tu feedback
+                    <textarea name="feedback" value=""></textarea>
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Forma de contacto:
+                    <label>
+                        Correo
+                        <input type="email" name="email" value="">
+                    </label>
+                    
+                    <label>
+                        Red social
+    
+                            <label>
+                                Instagram
+                                <input type="radio" name="red_social" value="instagram">
+                            </label>
+    
+                            <label>
+                                Twitter
+                                 <input type="radio" name="red_social" value="twitter">
+                            </label>
+    
+                            <label>
+                                TikTok
+                                <input type="radio" name="red_social" value="tiktok">
+                            </label>
+                        
+                            <label>
+                                Tu Nick
+                                <input type="text" name="nick_redsocial" value="">
+                            </label>
+    
+                        </label>
+                        
+                    </label>
+                    
+                </label>
+            </div>
+
+            <button type="submit">Enviar formulario</button>
 
         </form>
     </body>
